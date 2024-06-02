@@ -1,29 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/style.css">
     <title>Testing Code</title>
 </head>
+
 <body>
 
-<!-- Function - slider and respective value display - swegga project -->    
-<div id="slider">
-    <input type="range" min="0" max="10" value="0" fQuantity oninput="f1()"> <p display1>0</p>
-    <input type="range" min="0" max="10" value="0" mQuantity oninput="f1()"> <p display2>0</p>
-    <p fTotal>0.00</p>
-    <p mTotal>0.00</p>
-    <p fmCombined>0.00</p>
-</div>
-<!-- --------------------------------------------------------------- -->
+    <!-- Function - slider and respective value display - swegga project -->
+    <div id="slider">
+        <input type="range" min="0" max="10" value="0" fQuantity oninput="f1()">
+        <p display1>0</p>
+        <input type="range" min="0" max="10" value="0" mQuantity oninput="f1()">
+        <p display2>0</p>
+        <p fTotal>0.00</p>
+        <p mTotal>0.00</p>
+        <p fmCombined>0.00</p>
+    </div>
+    <!-- --------------------------------------------------------------- -->
 
-<label>hide:<input type="radio" name="hide" oninput="hide()">display:<input type="radio" name="hide" oninput="hide()"></label>
-<div id="myDIV">
-    This is my DIV element.
+    <div>
+        <label>hide:<input type="radio" name="hide" oninput="hide()">display:<input type="radio" name="hide"
+                oninput="hide()"></label>
+        <div id="myDIV">
+            This is my DIV element.
+        </div>
     </div>
 
-
+    <div>
+        <input type="text" valid oninput="valid()">
+    </div>
 
 
 
@@ -31,4 +40,5 @@
 
     <script src="script/code.js"></script>
 </body>
+
 </html>

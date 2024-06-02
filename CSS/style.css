@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     display: flex;
     flex-wrap: wrap;
 }
@@ -20,6 +20,16 @@ div {
 
 #slider {
     background-color: rgb(122, 104, 199);
-    &{accent-color: rgb(255, 251, 0);}
+
+    & {
+        accent-color: rgb(255, 251, 0);
+    }
 }
 
+.valid {
+    background-color: lime;
+}
+
+.invalid {
+    background-color: rgb(255, 0, 0);
+}
